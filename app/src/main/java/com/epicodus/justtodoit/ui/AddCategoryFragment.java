@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -68,7 +67,7 @@ public class AddCategoryFragment extends DialogFragment implements View.OnClickL
 
     public void saveCategoryToFirebase(String categoryName) {
         JustToDoItApplication.getAppInstance()
-                .getmFirebaseRef()
+                .getFirebaseRef()
                 .child("categories/")
                 .push()
                 .child("name/")

@@ -15,7 +15,7 @@ public class JustToDoItApplication extends Application {
         return app;
     }
 
-    public Firebase getmFirebaseRef() {
+    public Firebase getFirebaseRef() {
         return mFirebaseRef;
     }
 
