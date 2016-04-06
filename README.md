@@ -1,6 +1,6 @@
 # JustToDoIt
 
-#### A To-Do List written in Android, Saturday April 2nd, 2016
+#### A To-Do List written in Android, March 29th, 2016, 2016
 
 #### By Midori Bowen & Nathan Romike
 
